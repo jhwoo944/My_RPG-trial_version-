@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/1_TitleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Maps/2_Tutorial_Room.unity
+    guid: e493b1fbf33721f478b74624c2585ae9
+  - enabled: 1
+    path: Assets/Scenes/Maps/3_Enemy_Room.unity
+    guid: 97e9ca8f03a577b449066240d4c70ce4
   m_configObjects: {}

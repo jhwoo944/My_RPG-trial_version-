@@ -22,6 +22,9 @@ public class Public_Variable : BaseMonoBehaviour
 
     // ============================================[↓공용 변수 구역↓]=================================================
 
+    //플레이어 맵 이동 시 좌표 정보
+    public Vector3 NextCoordinate;
+
 
     // 게임 설정과 관련된 변수
     public int initialPlayerHealth = 100;
@@ -45,7 +48,6 @@ public class Public_Variable : BaseMonoBehaviour
     public int playerGold = 0;
     public List<GameObject> playerInventory = new List<GameObject>();
     public int maxInventorySize = 20;
-
 
     // 화면 및 UI 설정 변수
     public bool showHUD = true;
