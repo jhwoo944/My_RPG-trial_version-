@@ -32,20 +32,20 @@
 
 
 
- - BaseMonoBehaviour.cs
-모노 비헤이비어를 래핑한 클래스로,
-지금은 아무 기능도 없지만 추후에 필요한 프로퍼티 또는 메서드 등을 이것 저것 추가하여 자식 클래스들에게 상속하는 용도로 작성하였습니다.
-모든 스크립트 클래스는 BaseMonoBehaviour 클래스를 상속합니다.
+ - BaseMonoBehaviour.cs  
+모노 비헤이비어를 래핑한 클래스로,  
+지금은 아무 기능도 없지만 추후에 필요한 프로퍼티 또는 메서드 등을 이것 저것 추가하여 자식 클래스들에게 상속하는 용도로 작성하였습니다.  
+모든 스크립트 클래스는 BaseMonoBehaviour 클래스를 상속합니다.  
 
- - OverallManager.cs
-모든 Manager와 Public_Data 스크립트들을 유기적으로 잇는 총괄 매니저 스크립트입니다.
+ - OverallManager.cs  
+모든 Manager와 Public_Data 스크립트들을 유기적으로 잇는 총괄 매니저 스크립트입니다.  
 각각의 스크립트들은 OverallManager를 참조 및 역참조하도록 구성되어 있습니다.  
 
- - Public_Enum.cs , Public_Structer.cs , Public_Utility.cs, Public_Variable.cs
-공용으로 쓸 수 있는, 데이터들을 한데 모아놓은 스크립트들 입니다.
-Public_Variable.cs에서 OvarallMAnager를 중개자로 플레이어가 씬 이동 시 다음 맵에서 어떤 좌표에 나타날 지를 저장하고 씬 로드 완료 시에 리턴합니다.
-Public_Utility.cs는 스크립트 작성 시 유용한 메서드들을 저장합니다.
+ - Public_Enum.cs , Public_Structer.cs , Public_Utility.cs, Public_Variable.cs  
+공용으로 쓸 수 있는, 데이터들을 한데 모아놓은 스크립트들 입니다.  
+Public_Variable.cs에서 OvarallMAnager를 중개자로 플레이어가 씬 이동 시 다음 맵에서 어떤 좌표에 나타날 지를 저장하고 씬 로드 완료 시에 리턴합니다.  
+Public_Utility.cs는 스크립트 작성 시 유용한 메서드들을 저장합니다.  
 
- - UiManager.cs , SoundManager.cs , TestManager.cs
-UiManager 와 SoundManager은 차후 사용 될 수 있지만 현재는 빈 스크립트이며,
+ - UiManager.cs , SoundManager.cs , TestManager.cs  
+UiManager 와 SoundManager은 차후 사용 될 수 있지만 현재는 빈 스크립트이며,  
 TestManager 는 게임 테스트 시에 유용한 기능들을 키보드 숫자 1~0번을 눌러 사용할 수 있도록 작성했습니다.
